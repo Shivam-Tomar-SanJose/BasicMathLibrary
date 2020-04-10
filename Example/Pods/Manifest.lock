@@ -1,0 +1,16 @@
+PODS:
+  - BasicMathLibrary (0.1.0)
+
+DEPENDENCIES:
+  - BasicMathLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  BasicMathLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicMathLibrary: 38c15c4855f2e714e3951ebcdfb198264f0d5f77
+
+PODFILE CHECKSUM: d011795af48dc59164a76aade42044bacdb996d3
+
+COCOAPODS: 1.8.1

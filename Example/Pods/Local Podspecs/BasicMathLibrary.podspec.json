@@ -1,0 +1,22 @@
+{
+  "name": "BasicMathLibrary",
+  "version": "0.1.0",
+  "summary": "A short description of BasicMathLibrary.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shivam-tomar-sde/BasicMathLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shivam-tomar-sde": "shtomar@adobe.com"
+  },
+  "source": {
+    "git": "https://github.com/shivam-tomar-sde/BasicMathLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BasicMathLibrary/Classes/**/*"
+}
