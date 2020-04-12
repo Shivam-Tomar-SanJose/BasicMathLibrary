@@ -7,12 +7,17 @@
 //
 
 @import XCTest;
+#import <MathLib.h>
 
 @interface Tests : XCTestCase
+
+
 
 @end
 
 @implementation Tests
+    
+
 
 - (void)setUp
 {
@@ -26,9 +31,35 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testAddition
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
+    int number1 = 4, number2 = 4;
+    XCTAssert([MathLib addFirstValue:number1 addSecondValue:number2] == 8);
+    
+}
+
+- (void)testSubtraction
+{
+    
+    int number1 = 4, number2 = 4;
+    XCTAssert([MathLib substractFirstValue:number1 subtractSecondValue:number2] == 0);
+    
+}
+
+- (void)testMultiply
+{
+    
+    int number1 = 4, number2 = 4;
+    XCTAssert([MathLib multiplyFirstValue:number1 multiplySecondValue:number2] == 16);
+    
+}
+
+- (void)testDivide
+{
+    int number1 = 4, number2 = 4;
+    XCTAssert([MathLib divideFirstValue:number1 divideSecondValue:number2] == 1);
+    
 }
 
 @end

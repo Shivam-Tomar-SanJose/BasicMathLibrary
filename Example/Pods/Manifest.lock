@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicMathLibrary: 38c15c4855f2e714e3951ebcdfb198264f0d5f77
+  BasicMathLibrary: 9c5f7f61563bb26f7fa9e7fb97f2540527d7fbef
 
 PODFILE CHECKSUM: d011795af48dc59164a76aade42044bacdb996d3
 

@@ -9,5 +9,12 @@
 @import UIKit;
 
 @interface BASICMATHViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *firstNumberFieldd;
+@property (weak, nonatomic) IBOutlet UITextField *secondNumberField;
+- (IBAction)add:(UIButton *)sender;
+- (IBAction)subtract:(UIButton *)sender;
+- (IBAction)multiply:(UIButton *)sender;
+- (IBAction)divide:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *resultLable;
 
 @end

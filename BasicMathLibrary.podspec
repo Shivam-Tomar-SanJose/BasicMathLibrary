@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BasicMathLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BasicMathLibrary.'
+  s.summary          = 'A Math Library with Basic Arithmatic functions.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +17,27 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+  s.description  =    <<-DESC 
+                      A Math Library with Basic Arithmatic functions that can easily used.'
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shivam-tomar-sde/BasicMathLibrary'
+  s.homepage         = 'https://github.com/shivam-tomar-sanjose/BasicMathLibrary'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'shivam-tomar-sde' => 'shtomar@adobe.com' }
-  s.source           = { :git => 'https://github.com/shivam-tomar-sde/BasicMathLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'shivam-tomar-sanjose' => 'tomar.shivam@gmail.com' }
+  s.source           = { :git => 'https://github.com/Shivam-Tomar-SanJose/BasicMathLibrary.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BasicMathLibrary/Classes/**/*'
+  s.source_files = 'BasicMathLibrary/Classes/*.h', 'BasicMathLibrary/Classes/*.m'
   
-  # s.resource_bundles = {
-  #   'BasicMathLibrary' => ['BasicMathLibrary/Assets/*.png']
+   #s.resource_bundles = {
+    # 'BasicMathLibrary' => ['BasicMathLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  # s.public_header_files = 'BasicMathLibrary/headers/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

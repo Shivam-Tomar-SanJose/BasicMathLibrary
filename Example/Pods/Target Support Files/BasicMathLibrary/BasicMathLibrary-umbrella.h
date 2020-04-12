@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MathLib.h"
 
 FOUNDATION_EXPORT double BasicMathLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char BasicMathLibraryVersionString[];
